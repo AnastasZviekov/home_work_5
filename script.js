@@ -24,7 +24,7 @@ console.log(arr.length);
 minRandom=Math.ceil(-10);
 maxRandom=Math.floor(10);
 for (let i=0; i<arr.length; i++) {
-    randomFigure= Math.floor(Math.random() * (maxRandom - minRandom)) + minRandom;;
+    randomFigure= Math.floor(Math.random() * (maxRandom - minRandom)) + minRandom;
     if (randomFigure>minRandom&&randomFigure<maxRandom){
         arr[i] = randomFigure;
     } else {
