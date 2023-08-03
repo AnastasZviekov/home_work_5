@@ -53,3 +53,10 @@ console.log(`${minArrNumber} is minimum number in the Array`);
 console.log(`${maxArrNumber} is maximum number in the Array`);
 console.log(multiplyArrRes);
 
+document.write(`<ul> <li>Array: ${arr} </li>
+<li> min number in the Array ${minArrNumber} </li>
+<li> max Number in the  Array ${maxArrNumber} </li>
+<li> multiplication of numbers in the Array ${multiplyArrRes} </li>
+</ul>
+`);
+
